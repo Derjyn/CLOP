@@ -1,0 +1,69 @@
+{
+    "nodejs": true, 
+    "additional_trust_anchors": "", 
+    "inject-js-end": "", 
+    "node-remote": "", 
+    "keywords": [], 
+    "devDependencies": {
+        "load-grunt-tasks": "^0.6.0", 
+        "grunt": "~0.4.5", 
+        "grunt-contrib-rename": "0.0.3", 
+        "grunt-contrib-jshint": "~0.10.0", 
+        "grunt-contrib-copy": "~0.5.0", 
+        "time-grunt": "^0.4.0", 
+        "grunt-contrib-clean": "~0.6.0", 
+        "grunt-contrib-compress": "^0.10.0", 
+        "grunt-contrib-concat": "~0.5.0", 
+        "concat-files": "~0.1.0"
+    }, 
+    "engines": {
+        "node": ">=0.8.0"
+    }, 
+    "user-agent": "", 
+    "window": {
+        "fullscreen": false, 
+        "resizable": true, 
+        "title": "CLOP", 
+        "always-on-top": false, 
+        "frame": true, 
+        "width": 640, 
+        "height": 480, 
+        "exe_icon": "", 
+        "visible": true, 
+        "as_desktop": false, 
+        "position": "center", 
+        "show_in_taskbar": true, 
+        "mac_icon": "", 
+        "transparent": false, 
+        "toolbar": false, 
+        "icon": ""
+    }, 
+    "version": "0.0.1", 
+    "inject-js-start": "", 
+    "main": "app\\views\\index.html", 
+    "chromium-args": "--child-clean-exit", 
+    "webexe_settings": {
+        "linux-x32": false, 
+        "windows-x64": true, 
+        "download_dir": "E:\\Resources\\Development\\Tools\\Web2ExeWin\\files\\downloads", 
+        "nw_compression_level": 5, 
+        "mac-x32": false, 
+        "windows-x32": true, 
+        "mac-x64": false, 
+        "nw_version": "0.12.0-rc1", 
+        "force_download": true, 
+        "linux-x64": false
+    }, 
+    "description": "Crosswind Logistics Operations Portal", 
+    "dependencies": {}, 
+    "webkit": {
+        "page-cache": false, 
+        "java": true, 
+        "plugin": true
+    }, 
+    "js-flags": "", 
+    "name": "CLOP", 
+    "single-instance": true, 
+    "snapshot": "", 
+    "node-main": ""
+}
